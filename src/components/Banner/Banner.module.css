@@ -1,0 +1,44 @@
+.bannerMainContainer {
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  color: white;
+  position: relative;
+  box-shadow: 0px 10px 29px 0px #2271D1B2;
+}
+
+.contentAreaContainer {
+  display: flex;
+  background-color: rgba(128, 128, 128, 0.5);
+  padding: 22px;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.title {
+  font-size: 42px;
+  font-family: var(--fonte-roboto);
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+.description {
+  font-size: 22px;
+  font-family: var(--fonte-roboto);
+  max-width: 600px
+}
+
+.item iframe {
+  aspect-ratio: 16 / 9;
+  width: 150%; 
+  max-width: 1000px; 
+  height: auto; 
+  border: 5px solid var(--azul); 
+  box-shadow: 0px 5px 29px 0px #2271D1B2; 
+  border-radius: 10px;
+}

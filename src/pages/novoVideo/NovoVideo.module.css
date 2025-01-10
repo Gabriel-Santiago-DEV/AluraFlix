@@ -1,0 +1,121 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    width: 100vw;
+    height: 100vh;
+    padding: 20px;
+}
+
+.titulo {
+    font-family: var(--fonte-roboto);
+    font-size: 60px;
+    font-weight: 900;
+    text-align: center;
+    color: var(--branco);
+}
+
+.paragrafo {
+    font-family: var(--fonte-roboto);
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    color: var(--branco);
+}
+
+.h2 {
+    font-family: var(--fonte-source);
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    color: var(--branco);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    max-width: 600px;
+}
+
+.containerDois, .containerTres {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    width: 100%;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    width: 48%; 
+}
+
+.label {
+    font-family: var(--fonte-source);
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--branco);
+    margin-bottom: 5px;
+}
+
+.input,
+.select,
+.textarea {
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid var(--azul);
+    background-color: var(--cinza);
+    color: #FFFFFF;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.input:focus,
+.select:focus,
+.textarea:focus {
+    border-color: var(--azul-claro);
+    box-shadow: 0 0 5px var(--azul-claro);
+}
+
+.textarea {
+    resize: none;
+    height: 80px;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    width: 100%;
+    padding: 12px;
+}
+
+.buttonPrimary,
+.buttonSecondary {
+    background-color: black;
+    color: var(--branco);
+    border: 1px solid var(--branco);
+    border-radius: 8px;
+    font-size: 18px;
+    font-family: var(--fonte-source);
+    font-weight: 500;
+    width: 144px;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.buttonPrimary:hover,
+.buttonSecondary:hover {
+    color: var(--azul);
+    border-color: var(--azul);
+    box-shadow: 0px 10px 29px 0px rgba(34, 113, 209, 0.7);
+}

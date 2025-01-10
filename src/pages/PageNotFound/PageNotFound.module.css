@@ -1,0 +1,41 @@
+.container {
+    text-align: center;
+    padding: 50px;
+    background-color: var(--cinza);
+    color: var(--branco);
+    font-family: var(--fonte-roboto);
+}
+
+.title {
+    font-size: 96px;
+    color: var(--azul);
+    margin: 20px 0;
+}
+
+.subtitle {
+    font-size: 18px;
+    color: var(--branco);
+    margin: 10px 0 30px 0;
+    font-family: var(--fonte-source);
+}
+
+.button {
+    background-color: var(--cinza);
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 18px;
+    font-family: var( --fonte-source);
+    font-weight: 500;
+    color: var(--branco);
+    border-color: var(--branco);
+    transition: all 0.3s ease;
+    background-color: black;
+    width: 400px;
+    height: 40px;
+}
+
+.button:hover {
+    color: var(--azul);
+    border-color: var(--azul); 
+    box-shadow: 0px 10px 29px 0px #2271D1B2;
+}
