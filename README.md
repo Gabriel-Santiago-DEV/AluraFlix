@@ -1,70 +1,32 @@
-# Getting Started with Create React App
+<h1>Desafio Alura Flix</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h2>⚡Sobre o desafio⚡</h2>
 
-## Available Scripts
+<p>O AluraFlix é o quarto challenge de front-end e consiste em uma página que mostra video utilizando uma api mokada. O desafio é uma simulação do dia a dia de trabalho de um desenvolvedor front-end com o objetivo de colocar em prática todos os conhecimentos adquiridos até então no curso de React. Este projeto representa o desafio React, que envolve a criação de uma aplicação web semelhante à Netflix. O design do projeto é baseado no modelo do Figma fornecido pela Alura, mas você tem a flexibilidade de personalizar o design de acordo com suas preferências.</p>
+<p>O objetivo principal é colocar em prática algumas das principais ferramentas para a construção de paginas web: HTML, CSS, JAVASCRIPT e REACT através de aulas dinamicas e intuitivas com exemplos práticos e exercicios.</p>
 
-In the project directory, you can run:
 
-### `npm start`
+<h3>❓Como utilizar❓</h3>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<h4>💻 Inicializando localmente💻</h4>
+Pré-requisitos
+<br>Node.js
+<p>Em meu repositorio  AluraFlix você pode fazer o download do arquivo ou clone o repositório dentro de uma pasta e depois entre na pasta.</p>
+<p>Lembre-se que você precisa ter instalado o json-server , lembrando que o json-server é um pacote NPM que pode ser instalado globalmente em ambientes que possuam o Node.JS instalado.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Extraia o arquivo e abra ele no VSCODE ,clique em TERMINAL e NOVO TERMINAL.
 
-### `npm test`
+Primeiro instalamos nossas dependências
+```bash
+npm install
+```
+... depois precisamos iniciar o json-server
+```bash
+npm run server
+```
+... e rodamos nossa aplicação em uma nova instância do terminal.
+```bash
+npm start
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<p>Você pode ver o link do projeto aqui: https://alura-flix-opal-mu.vercel.app/</p>
